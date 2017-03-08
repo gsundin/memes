@@ -11,8 +11,11 @@ Use Facebook graph API to pull the most recently-posted OC from hundreds of meme
 * *Express*: Node server package
 * *fb*: Node Facebook Graph API package
 * *Mocha*: Node test package
+
 **HTML5Up**: Using basic HTML5/CSS3 template from HTML5Up.net
+
 **Heroku**: Node server deployment and hosting
+
 **CircleCI**: Automatic building and continuous deployment from `master`
 
 ## Stretches and Extras
