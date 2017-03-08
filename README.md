@@ -4,7 +4,7 @@
 Ongoing project to make bring the (objectively) dankest memes to the public.
 
 ## Goal
-Use Facebook graph API to pull the most recently-posted OC from hundreds of meme pages on Facebook and display them in a real-time stream on a web interface hosted [on Heroku](strom-von-memen.herokuapp.com).
+Use Facebook graph API to pull the most recently-posted OC from hundreds of meme pages on Facebook and display them in a real-time stream on a web interface hosted [on Heroku](https://strom-von-memen.herokuapp.com).
 
 ## Technologies and Services
 **Node.js**: 
