@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/gsundin/memes/issues"
   },
-  "homepage": "https://github.com/gsundin/memes#readme"
+  "homepage": "https://github.com/gsundin/memes#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
