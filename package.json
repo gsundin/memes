@@ -1,0 +1,20 @@
+{
+  "name": "memes",
+  "version": "1.0.0",
+  "description": "Stream of the meme",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsundin/memes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsundin/memes/issues"
+  },
+  "homepage": "https://github.com/gsundin/memes#readme"
+}

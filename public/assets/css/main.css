@@ -4149,3 +4149,13 @@
 		}
 
 	}
+
+div.big-frame {
+  width: 100%;
+  height: 100vh;
+}
+
+.centered {
+  text-align: center;
+  vertical-align: middle;
+}
