@@ -33,16 +33,3 @@ var port = process.env.PORT || 8080;
 app.listen(port, function() {
 	console.log("Listening on " + port);
 });
-
-// Get list of all memes in folder
-var memes = fs.readdirSync('/public/memes/');
-var numberOfMemes = memes.size();
-
-// Infinitely loop the meme rotator
-var intervalHandle = setInterval(getDurationNext, duration);
-
-// Display next meme on site every X ms
-function memeRotator () {
-	var i = 0;
-
-}
