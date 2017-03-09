@@ -6,32 +6,36 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
 		<title>Animated Background Headers | Demo 1</title>
 		<meta name="description" content="Examples for creative website header animations using Canvas and JavaScript" />
-		<meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
-		<meta name="author" content="Codrops" />
+		<meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript"/>
+		<meta name="author" content="Codrops"/>
 		<link rel="shortcut icon" href="../favicon.ico">
-		<link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/demo.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/component.css"/>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
 		<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="assets/js/meme-fit.js" type="text/javascript" language="JavaScript"></script>
 	</head>
 	<body>
-		<div class="container demo-1">
+		<div class="container constellation-touch">
 			<div class="content">
 				<div id="large-header" class="large-header">
-					<canvas id="demo-canvas"></canvas>
-					<img class="main-meme" src="memes/iron-giant.jpg" alt="mememememe"/>
+					<img id="meme" class="center fit" src="memes/iron-giant.jpg" alt="mememememe"/>
+					<!--<canvas id="demo-canvas"></canvas>-->
 				</div>
 			</div>
 			<p class="ref">Image credits: <a href="http://www.eso.org/public/images/eso1205a/">ESO/VISTA/J. Emerson. Acknowledgment: Cambridge Astronomical Survey Unit</a>
 			<br>
 			JavaScript credits: Rachel Smith @ <a href="https://tympanus.net/codrops/2014/09/23/animated-background-headers/">tympanus.net<a/></p>
-		</div><!-- /container -->
+		</div>
+		<script src="assets/js/geo-svg.js"></script>
 		<script src="assets/js/TweenLite.min.js"></script>
 		<script src="assets/js/EasePack.min.js"></script>
 		<script src="assets/js/rAF.js"></script>
-		<script src="assets/js/demo-1.js"></script>
+		<script src="assets/js/constellation-touch.js"></script>
 	</body>
 </html>

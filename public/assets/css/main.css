@@ -1,0 +1,45 @@
+$colors: (
+  #feda3e,
+  #cc6698,
+  #0869ad,
+  #ff8300,
+  #7A86b8,
+  #f05133,
+  #2aa9e0,
+  #71bf45,
+  #ef0e39,
+  #9e79d7,
+);
+$color: nth($colors, random(length($colors)));
+
+html {
+  background: radial-gradient(ellipse at center, $color 0%, darken($color, 50%) 100%);
+  overflow: hidden;
+}
+
+img.main-meme {
+    z-index: 999;
+    position: fixed; /* or absolute */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+body {
+    background: url('../memes/iron-giant.jpg') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fit {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.center {
+  display: block;
+  margin: auto;
+}
