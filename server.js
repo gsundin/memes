@@ -1,13 +1,15 @@
 var express = require("express");
 var app = express();
 
-var config = require('./fb.js');
+// Heroku environment variables
+var fb_app_id = process.env.APP_ID;
+var fb_app_secret = process.env.APP_SECRET;
 
 var FB = require('fb');
 var fb = new FB.Facebook();
 
 // Instance of our Facebook app, called "meme-stream"
-var memeApp = FB.extend({appId: config.CLIENT_ID, appSecret: config.CLIENT_SECRET});
+var memeApp = FB.extend({appId: fb_app_id, appSecret: fb_app_secret});
 
 /* serves main page */
 app.get("/", function(req, res) {
