@@ -35,3 +35,11 @@ var port = process.env.PORT || 8080;
 app.listen(port, function() {
 	console.log("Listening on " + port);
 });
+
+var htmlSource = fs.readFileSync("public/index.html", "utf8");
+    call_jsdom(htmlSource, function (window) {
+        var $ = window.$;
+
+        var meme_path = $("title").text();
+        $("#meme").text("HELLLLLLLLLLLLLO WORLD");
+    });
