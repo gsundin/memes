@@ -23,4 +23,4 @@ Possible additions:
 * "Report" button to distinguish memes from non-memes, or to flag certain pages that don't produce quality content
 * Batch meme analyses based on upvote/downvote ratings to determine the most popular pages/memes
 * FB messenger plugin (similar to Giphy) to quickly post a recently-incepted meme
-* FB messenger plugin to subscribe for frequent, definitively dank memes
+* FB messenger plugin to subscribe for frequent, definitively *dank* memes
