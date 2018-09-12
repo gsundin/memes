@@ -1,5 +1,5 @@
 # memes
->And so even though we face the difficulties of today and tomorrow, I still have a meme. It is a meme deeply rooted in the American dream. I have a meme that one day this nation will rise up and live out the true meaning of its creed: "It's just a prank, bro."
+>"These are my maymays. Be gentle with them.""
 
 Ongoing project to make bring the (objectively) dankest memes to the public.
 
