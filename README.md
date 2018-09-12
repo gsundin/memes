@@ -1,5 +1,5 @@
 # memes
->"These are my maymays. Be gentle with them.""
+>"These are my maymays. Be gentle with them."
 
 Ongoing project to make bring the (objectively) dankest memes to the public.
 
